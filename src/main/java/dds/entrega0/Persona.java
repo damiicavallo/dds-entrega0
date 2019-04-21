@@ -52,5 +52,9 @@ public class Persona {
 
     }
 
+    public void agregarAccesorioASugerenciaElegida(Prenda accesorio,int numeroSugerencia){
+        elegirSugerencia(numeroSugerencia).add(accesorio);
+    }
+
 
 }
